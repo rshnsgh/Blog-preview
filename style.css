@@ -1,0 +1,97 @@
+@font-face {
+  font-family: myFont;
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+.attribution {
+  margin-top: 50px;
+   font-size: 11px;
+    text-align: center; 
+  }
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: myFont;
+}
+
+.container {
+  border: solid black 3px;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 5px 5px black;
+}
+
+.inner-section {
+  padding: 15px;
+}
+.publish {
+  font-size: smaller;
+}
+
+.top-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.learning {
+  margin-top: 8%;
+  background-color: hsl(47, 88%, 63%);
+  height: 25px;
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  padding-top: 6px;
+}
+
+.description {
+  font-weight: lighter;
+}
+
+.profile {
+  display: flex;
+  justify-content:left;
+}
+
+.profile img {
+  width: 8%;
+  height: 8%;
+}
+
+.name {
+  float: none;
+  margin-left: 10px;
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
